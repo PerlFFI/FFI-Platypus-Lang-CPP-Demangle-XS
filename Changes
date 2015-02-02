@@ -2,5 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.02      2015-02-01 23:57:27 -0500
+  - First release to CPAN
+  - identical to 0.01 release
+
 0.01      2015-02-01 23:29:20 -0500
   - initial version
