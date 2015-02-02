@@ -23,9 +23,7 @@ This module provides an interface for demangling C++ symbols.
 
 It is an alternative to C<c++filt> for L<FFI::Platyus::Lang::CPP>.
 
-Perl 5.8.1 or newer is required.  No non-core prereqs on Perl
-5.8 - 5.18.  L<Module::Build> is a configure and build dependency
-on Perl 5.20 or better.
+Perl 5.8.1 or newer is required.  
 
 =head1 FUNCTIONS
 
