@@ -11,7 +11,7 @@ my $post_diag;
 
 $modules{$_} = $_ for qw(
   ExtUtils::CppGuess
-  Module::Build
+  ExtUtils::MakeMaker
   Test2::V0
 );
 

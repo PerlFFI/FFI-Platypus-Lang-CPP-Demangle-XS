@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Migrate to EUMM
 
 0.02      2015-02-01 23:57:27 -0500
   - First release to CPAN
