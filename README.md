@@ -1,4 +1,4 @@
-# FFI::Platypus::Lang::CPP::Demangle::XS
+# FFI::Platypus::Lang::CPP::Demangle::XS [![Build Status](https://secure.travis-ci.org/Perl5-FFI/FFI-Platypus-Lang-CPP-Demangle-XS.png)](http://travis-ci.org/Perl5-FFI/FFI-Platypus-Lang-CPP-Demangle-XS)
 
 Demangle C++ symbols using the C++ ABI API
 
