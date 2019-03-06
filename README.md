@@ -14,7 +14,7 @@ This module provides an interface for demangling C++ symbols.
 
 It is an alternative to `c++filt` for [FFI::Platyus::Lang::CPP](https://metacpan.org/pod/FFI::Platyus::Lang::CPP).
 
-Perl 5.8.1 or newer is required.  
+Perl 5.8.1 or newer is required.
 
 # FUNCTIONS
 

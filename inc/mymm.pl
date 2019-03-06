@@ -27,7 +27,7 @@ sub myWriteMakefile
       },
     },
   };
-  
+
   WriteMakefile(%args);
 }
 

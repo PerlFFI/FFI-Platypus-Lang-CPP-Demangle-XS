@@ -23,7 +23,7 @@ This module provides an interface for demangling C++ symbols.
 
 It is an alternative to C<c++filt> for L<FFI::Platyus::Lang::CPP>.
 
-Perl 5.8.1 or newer is required.  
+Perl 5.8.1 or newer is required.
 
 =head1 FUNCTIONS
 
