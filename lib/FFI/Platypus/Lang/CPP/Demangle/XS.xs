@@ -18,9 +18,9 @@ demangle(c_symbol)
       ffi_pl_lang_cpp_demangle(NULL);
       XSRETURN_EMPTY;
     }
-  
+
     demangled = ffi_pl_lang_cpp_demangle((const char *)SvPV_nolen(c_symbol));
-    
+
     if(demangled == NULL)
     {
       switch(ffi_pl_lang_cpp_demangle_status)
@@ -42,5 +42,5 @@ demangle(c_symbol)
           break;
       }
     }
-    
+
     XSRETURN_PV(demangled);
