@@ -1,12 +1,14 @@
-# FFI::Platypus::Lang::CPP::Demangle::XS [![Build Status](https://secure.travis-ci.org/Perl5-FFI/FFI-Platypus-Lang-CPP-Demangle-XS.png)](http://travis-ci.org/Perl5-FFI/FFI-Platypus-Lang-CPP-Demangle-XS)
+# FFI::Platypus::Lang::CPP::Demangle::XS [![Build Status](https://travis-ci.org/PerlFFI/FFI-Platypus-Lang-CPP-Demangle-XS.svg)](http://travis-ci.org/PerlFFI/FFI-Platypus-Lang-CPP-Demangle-XS)
 
 Demangle C++ symbols using the C++ ABI API
 
 # SYNOPSIS
 
-    use FFI::Platypus::Lang::CPP::Demangle::XS;
-    
-    my $demangled = demangle($c_symbol);
+```perl
+use FFI::Platypus::Lang::CPP::Demangle::XS;
+
+my $demangled = demangle($c_symbol);
+```
 
 # DESCRIPTION
 
@@ -20,7 +22,9 @@ Perl 5.8.1 or newer is required.
 
 ## demangle
 
-    my $demangled = demangle($c_symbol);
+```perl
+my $demangled = demangle($c_symbol);
+```
 
 Demangle the given symbol.  If the input symbol is not a valid
 C++ symbol, then it will return `undef`.  If there is any other
