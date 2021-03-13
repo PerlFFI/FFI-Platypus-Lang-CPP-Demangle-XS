@@ -4,4 +4,4 @@ set -ex
 
 cip sudo apt-get update
 cip sudo apt-get install -y g++
-cip sudo dzil-cpanm -n ExtUtils::CppGuess ExtUtils::MakeMaker
+cip exec dzil-cpanm -n ExtUtils::CppGuess ExtUtils::MakeMaker
