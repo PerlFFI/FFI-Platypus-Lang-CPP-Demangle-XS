@@ -1,2 +1,4 @@
 /FFI-Platypus-Lang-CPP-Demangle-XS-*
 /.build
+*.old
+*.orig
